@@ -39,14 +39,6 @@
     color: var(--gray-400);
 }
 
-.author img {
-    width: 3rem;
-    height: 3rem;
-    border-radius: 8px;
-    boder: 4px solid var(--gray-800);
-    outline: 2px solid var(--green-500);
-}
-
 .author {
     display: flex;
     align-items: center;
