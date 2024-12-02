@@ -14,8 +14,8 @@ const posts = [
       role: 'Software Engineer'
     },
     content: [
-      {type: 'paragrah', content: 'Fala galeraa 👋'},
-      {type: 'paragrah', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀'}    ,
+      {type: 'paragraph', content: 'Fala galeraa 👋'},
+      {type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀'}    ,
       {type: 'link', content: 'jane.design/doctorcare'}
     ]
     ,
@@ -29,8 +29,8 @@ const posts = [
       role: 'CTO @Rocketseat'
     },
     content: [
-      {type: 'paragrah', content: 'Fala galeraa 👋'},
-      {type: 'paragrah', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀'}    ,
+      {type: 'paragraph', content: 'Fala galeraa 👋'},
+      {type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀'}    ,
       {type: 'link', content: 'jane.design/doctorcare'}
     ]
     ,
