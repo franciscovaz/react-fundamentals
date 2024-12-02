@@ -7,7 +7,7 @@ import './global.css';
 
 const posts = [
   {
-    id: '1',
+    id: 1,
     author: {
       avatarUrl: 'https://github.com/franciscovaz.png',
       name: 'Francisco Vaz',
@@ -22,11 +22,11 @@ const posts = [
     publishedAt: new Date('2024-12-02 23:00:00')
   },
   {
-    id: '2',
+    id: 2,
     author: {
       avatarUrl: 'https://github.com/diego3g.png',
-      name: 'Diego',
-      role: 'cto @Rocketseat'
+      name: 'Diego FERNANDES',
+      role: 'CTO @Rocketseat'
     },
     content: [
       {type: 'paragrah', content: 'Fala galeraa 👋'},
