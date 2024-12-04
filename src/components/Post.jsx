@@ -13,7 +13,7 @@ export function Post ({author, publishedAt, content}) {
         }
     );
 
-    const [comments, setComments] = useState([1,2, 3])
+    const [comments, setComments] = useState(['Comentário porreiro num post brutal!'])
 
     const publishedDateRelativeNow = formatDistanceToNow(publishedAt, {
         locale: ptPT,
@@ -67,7 +67,7 @@ export function Post ({author, publishedAt, content}) {
 
             <div className={styles.commentList}>
                 { comments.map(comment => {
-                    return <Comment key={comment}/>
+                    return <Comment key={comment} content={comment}/>
                 }) }
             </div>
         </article>  
