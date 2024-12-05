@@ -20,7 +20,7 @@ export function Comment({content, onDeleteComment}) {
                             <time title='25 de Novembro às 23:38h' dateTime="2024-11-25 23:38:00">Cerca de 1h atrás</time>
                         </div>
 
-                        <button onClick={handleDeleteComment} title='Eliminar comentário'>
+                        <button onMouseDown={handleDeleteComment} title='Eliminar comentário'>
                             <Trash size={24}/>
                         </button>
                     </header>
