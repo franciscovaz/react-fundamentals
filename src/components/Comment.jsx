@@ -2,12 +2,12 @@ import { ThumbsUp, Trash } from 'phosphor-react'
 import styles from './Comment.module.css'
 import { Avatar } from './Avatar'
 
-export function Comment({content}) {
+export function Comment({content, deleteComment}) {
 
     function handleDeleteComment() {
-        console.log('delete comment');
+        deleteComment(content)
     }
-    
+
     return (
         <div className={styles.comment}>
             <Avatar hasBorder={false} src="https://github.com/diego3g.png" />
